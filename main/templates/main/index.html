@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
+{% endblock css %}
+
+{% block content %}
+    <h1 class="mt-5 pt-5 "><strong>{{content}}</strong></h1>
+{% endblock content %}   
+      
+{% block footer %}
+    <footer class="py-4 bg-transparent ">
+        <div class="container">
+            <p class="m-0 text-center text-white">Любая техника по вкусу</p>
+        </div>
+    </footer>
+{% endblock footer %}
+    
