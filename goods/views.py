@@ -13,6 +13,8 @@ def catalog(request, category_slug=None):
 
     if category_slug == "vse-tovary":
         goods = Products.objects.all()
+    elif query:
+        goods = q_search(query)
     else:
         goods = get_object_or_404(Products.objects.filter(category__slug=category_slug))
     

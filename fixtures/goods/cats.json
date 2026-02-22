@@ -1,34 +1,67 @@
 [
-    {
-        "model": "goods.categories",
-        "pk": 1,
-        "fields": {
-            "name": "┬ёх ЄютрЁ√",
-            "slug": "vse-tovary"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 2,
-        "fields": {
-            "name": "▌эфєЁю",
-            "slug": "enduro"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 3,
-        "fields": {
-            "name": "╧шЄсрщъш",
-            "slug": "pitbajki"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 4,
-        "fields": {
-            "name": "╩трфЁюЎшъы√",
-            "slug": "kvadrocikly"
-        }
+
+  {
+
+    "model": "goods.categories",
+
+    "pk": 1,
+
+    "fields": {
+
+      "name": "Все товары",
+
+      "slug": "vse-tovary"
+
     }
+
+  },
+
+  {
+
+    "model": "goods.categories",
+
+    "pk": 2,
+
+    "fields": {
+
+      "name": "Эндуро",
+
+      "slug": "enduro"
+
+    }
+
+  },
+
+  {
+
+    "model": "goods.categories",
+
+    "pk": 3,
+
+    "fields": {
+
+      "name": "Питбайки",
+
+      "slug": "pitbajki"
+
+    }
+
+  },
+
+  {
+
+    "model": "goods.categories",
+
+    "pk": 4,
+
+    "fields": {
+
+      "name": "Квадроциклы",
+
+      "slug": "kvadrocikly"
+
+    }
+
+  }
+
 ]
